@@ -1,6 +1,5 @@
 use rand;
 
-
 pub fn random_number() -> i32 {
     let ran = rand::random();
     ran
