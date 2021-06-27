@@ -37,3 +37,6 @@ pub fn div(a: i32, b: i32) -> i32 {
     }
     a/b
 }
+
+// rustc src/lib.rs --crate-type lib
+// rustdoc --test --extern doc="libdoc.rlib" src/lib.rs
