@@ -6,3 +6,6 @@ Here is a recap of the reasons to choose Box<T>, Rc<T>, or RefCell<T>:
 - Box<T> allows immutable or mutable borrows checked at compile time; Rc<T> allows only immutable borrows checked at compile time; 
 - RefCell<T> allows immutable or mutable borrows checked at runtime.
 - Because RefCell<T> allows mutable borrows checked at runtime, you can mutate the value inside the RefCell<T> even when the RefCell<T> is immutable.
+
+1. https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/arrays-vectors-and-slices.html
+2. https://www.ameyalokare.com/rust/2017/10/12/rust-str-vs-String.html
